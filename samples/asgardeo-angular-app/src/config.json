@@ -1,7 +1,7 @@
 {
-    "clientID": "<ADD_CLIENT_ID_HERE>",
-    "baseUrl": "",
+    "clientID": "mjgrKX6_hU6sHBNoGaMt_bA6oC0a",
+    "baseUrl": "https://dev.api.asgardeo.io/t/minerva",
     "signInRedirectURL": "https://localhost:3000",
     "signOutRedirectURL": "https://localhost:3000",
-    "scope": ["profile"]
+    "scope": ["profile", "openid"]
 }
