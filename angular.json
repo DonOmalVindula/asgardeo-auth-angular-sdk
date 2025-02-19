@@ -55,7 +55,6 @@
                         "main": "playground/src/main.ts",
                         "polyfills": "playground/src/polyfills.ts",
                         "tsConfig": "playground/tsconfig.app.json",
-                        "aot": true,
                         "assets": [
                             "playground/src/favicon.ico",
                             "playground/src/assets"
@@ -63,7 +62,13 @@
                         "styles": [
                             "playground/src/styles.css"
                         ],
-                        "scripts": []
+                        "scripts": [],
+                        "vendorChunk": true,
+                        "extractLicenses": false,
+                        "buildOptimizer": false,
+                        "sourceMap": true,
+                        "optimization": false,
+                        "namedChunks": true
                     },
                     "configurations": {
                         "production": {
@@ -93,7 +98,8 @@
                                 }
                             ]
                         }
-                    }
+                    },
+                    "defaultConfiguration": ""
                 },
                 "serve": {
                     "builder": "@angular-devkit/build-angular:dev-server",
