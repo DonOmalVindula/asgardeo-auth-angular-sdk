@@ -33,7 +33,7 @@ import { JsonFormatterComponent } from "./json-formatter/json-formatter.componen
     imports: [
         BrowserModule,
         AsgardeoAuthModule.forRoot(authConfig as AsgardeoConfigInterface),
-        RouterModule.forRoot([], { relativeLinkResolution: 'legacy' })
+        RouterModule.forRoot([])
     ],
     providers: [],
     bootstrap: [AppComponent]
