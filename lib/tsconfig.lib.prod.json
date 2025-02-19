@@ -23,6 +23,6 @@
         "declarationMap": false
     },
     "angularCompilerOptions": {
-        "enableIvy": false
+      "compilationMode": "partial"
     }
 }
